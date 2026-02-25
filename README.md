@@ -29,6 +29,13 @@
 </p>
 
 ---
+## 🎥 Demo
+
+<p align="center">
+  <img src="assets/repla-demo.gif" width="900"/>
+</p>
+
+---
 
 ## 🧠 Overview
 
