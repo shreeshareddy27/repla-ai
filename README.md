@@ -121,3 +121,24 @@ We score privacy exposure on a 1–5 scale (1 = low risk, 5 = high risk) across:
 - Attack surface
 
 ![Privacy Radar](docs/figures/privacy_radar.png)
+
+---
+
+## 🧪 Evaluation Methodology
+
+**Latency**
+- N = 20 trials
+- Median + P95 reported (robust to outliers)
+- Measured end-to-end: Extension → Express API → Ollama → Response
+
+**Cost Model**
+- Estimated 500 tokens per email (350 input + 150 output)
+- Cloud pricing: $5 / 1M tokens (configurable)
+- Local inference API cost: $0
+
+**Privacy Scoring**
+- 5-dimensional rubric
+- 1–5 scale (1 = low exposure, 5 = high exposure)
+- Compared local-first vs typical cloud AI architecture
+
+All evaluation scripts are included in `/eval` for reproducibility.
