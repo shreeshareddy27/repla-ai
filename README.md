@@ -97,8 +97,7 @@ We benchmarked end-to-end local inference latency
 - P95 latency: 4.1s
 - Environment: MacBook + Ollama (Llama 3.1 local)
 
-![Latency Distribution](docs/figures/latency_distribution.png)
-
+![Latency Distribution](docs/figures/latency_distribution_v2.png)
 ---
 
 ### 💰 Cost Comparison (Per Email)
