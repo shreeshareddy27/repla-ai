@@ -108,3 +108,16 @@ Assumptions:
 - Local inference: $0 API cost
 
 ![Cost Comparison](docs/figures/cost_comparison.png)
+
+---
+
+### 🔐 Privacy Surface Comparison (Lower = Better)
+
+We score privacy exposure on a 1–5 scale (1 = low risk, 5 = high risk) across:
+- External data transmission
+- Third-party retention
+- API dependency
+- Offline capability
+- Attack surface
+
+![Privacy Radar](docs/figures/privacy_radar.png)
