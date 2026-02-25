@@ -45,3 +45,57 @@ Repla.ai investigates whether a **fully local LLM pipeline** can deliver useful 
 
 ---
 
+## 🏗️ System Architecture
+
+Gmail UI (Chrome)
+↓
+Content Script (Extract Email)
+↓
+Background Service Worker
+↓
+Local Express API (Node.js)
+↓
+Ollama Runtime
+↓
+Llama 3.1 (Local LLM Inference)
+↓
+Generated Reply → Injected Back into Gmail
+
+
+### Architectural Principles
+
+- **Local-first inference** (No external API calls)
+- **Stateless backend orchestration**
+- **Prompt conditioning via tone control**
+- **Modular separation of UI, API, and model layers**
+- **Zero data persistence**
+
+---
+
+## 🔬 Design Comparison
+
+| Feature | Repla.ai | Typical Cloud AI Email Tools |
+|----------|-----------|-----------------------------|
+| Data Processing | Fully Local | Cloud-based |
+| LLM Hosting | Ollama (local) | OpenAI / API |
+| Cost per request | $0 | API usage cost |
+| Privacy Risk | Minimal | High (external servers) |
+| Latency | Device dependent | Network dependent |
+| Offline Usage | Yes | No |
+
+---
+
+## 📊 Quantitative Evaluation
+
+### 📈 Local Inference Latency Distribution
+
+We benchmarked end-to-end local inference latency
+(Gmail → Extension → Local API → Ollama → Response).
+
+- Trials: 20
+- Median latency: 2.9s
+- P95 latency: 4.1s
+- Environment: MacBook + Ollama (Llama 3.1 local)
+
+![Latency Distribution](docs/figures/latency_distribution.png)
+
