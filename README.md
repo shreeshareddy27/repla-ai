@@ -1,4 +1,12 @@
 <p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue" />
+  <img src="https://img.shields.io/badge/Node.js-18+-green" />
+  <img src="https://img.shields.io/badge/LLM-Llama%203.1-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
+</p>
+
+
+<p align="center">
   <img src="images/logo.png" width="140" alt="Repla.ai logo" />
 </p>
 
