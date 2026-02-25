@@ -22,6 +22,14 @@
 
 ---
 
+## 🏗 Architecture
+
+<p align="center">
+  <img src="assets/architecture.png" width="900"/>
+</p>
+
+---
+
 ## 🧠 Overview
 
 Repla.ai is a privacy-first AI email assistant that generates contextual Gmail replies using a locally running Large Language Model (Llama 3.1 via Ollama).
