@@ -99,3 +99,13 @@ We benchmarked end-to-end local inference latency
 
 ![Latency Distribution](docs/figures/latency_distribution.png)
 
+---
+
+### 💰 Cost Comparison (Per Email)
+
+Assumptions:
+- Avg tokens per request: ~500
+- Cloud API pricing: $5 per 1M tokens
+- Local inference: $0 API cost
+
+![Cost Comparison](docs/figures/cost_comparison.png)
