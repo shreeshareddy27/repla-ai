@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="images/logo.png" width="140" alt="Repla.ai logo" />
+  <img src="assets/Repla.ai.png" width="150"/>
 </p>
 
 <h1 align="center">Repla.ai</h1>
