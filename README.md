@@ -181,4 +181,21 @@ We score privacy exposure on a 1–5 scale (1 = low risk, 5 = high risk) across:
 
 All evaluation scripts are included in `/eval` for reproducibility.
 
+## ⚠️ Limitations
+
+- Inference speed depends on local hardware (CPU/GPU, RAM, model size)
+- No multi-user scaling (single-device / local-first design)
+- LLM hallucination risk not fully mitigated (no grounding/RAG yet)
+- Limited evaluation scope (small benchmark set; results may vary by machine)
+- No long-term memory or personalization beyond prompt conditioning
+
+## 🚀 Future Improvements
+
+- Implement streaming token responses for faster perceived latency
+- Add model quantization benchmarks (4-bit / 8-bit comparison)
+- Compare CPU vs GPU acceleration performance
+- Introduce Retrieval-Augmented Generation (RAG) for factual grounding
+- Add on-device personalization via lightweight embedding memory
+- Expand benchmark dataset for statistically robust evaluation
+
 
