@@ -87,6 +87,7 @@ npm start
 # Load extension
 # Go to chrome://extensions → Load unpacked → select the extension/ folder
 
+```
 ---
 
 ## 🏗️ System Architecture
