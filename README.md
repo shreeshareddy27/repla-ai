@@ -66,6 +66,10 @@ Modern AI email tools rely on cloud APIs, raising:
 
 Repla.ai investigates whether a **fully local LLM pipeline** can deliver useful productivity gains while maintaining complete data privacy.
 
+## Run Locally
+
+```bash
+
 # Start Ollama
 ollama serve
 
@@ -75,6 +79,7 @@ npm start
 
 # Load extension
 # Go to chrome://extensions → Load unpacked → select the extension/ folder
+```
 
 ---
 
