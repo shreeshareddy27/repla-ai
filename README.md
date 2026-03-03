@@ -56,13 +56,13 @@ This project explores:
 ---
 ## 🛠 Tech Stack
 
-**Frontend:** Chrome Extension (Manifest v3, Content Scripts, Service Worker)  
-**Backend:** Node.js + Express  
-**Model Runtime:** Ollama (local inference)  
-**LLM:** Llama 3.1  
-**Evaluation:** Python (latency benchmarking + quality scoring)  
-**Architecture Style:** Local-first ML system design  
-**Deployment Model:** Fully offline, zero external API dependency
+- **Frontend:** Chrome Extension (Manifest v3, Content Scripts, Service Worker)
+- **Backend:** Node.js + Express
+- **Model Runtime:** Ollama (local inference)
+- **LLM:** Llama 3.1
+- **Evaluation:** Python (latency benchmarking + quality scoring)
+- **Architecture:** Local-first ML system design
+- **Deployment:** Fully offline, zero external API dependency
 ---
 
 ## 🎯 Problem Statement
