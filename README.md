@@ -85,6 +85,10 @@ npm start
 
 ## 🏗️ System Architecture
 
+<p align="center">
+  <img src="assets/architecture.png" width="700"/>
+</p>
+
 Gmail UI (Chrome)
 ↓
 Content Script (Extract Email)
