@@ -86,7 +86,7 @@ npm start
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" width="700"/>
+  <img src="assets/system-architecture.png" width="800"/>
 </p>
 
 Gmail UI (Chrome)
